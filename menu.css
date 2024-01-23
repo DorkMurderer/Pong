@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow: hidden;
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: black;
+    height: 100vh;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    height: 400px;
+    border-bottom: none;
+    
+}
+
+
+h1{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+button{
+    margin-top: 10px;
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   background-color: rgb(84, 84, 84);
+   color: rgb(198, 197, 197);
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
